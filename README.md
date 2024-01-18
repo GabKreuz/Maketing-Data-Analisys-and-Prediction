@@ -16,6 +16,7 @@ The database has 171 rows, and all the data are of float type. No data preparati
 No information regarding the units and scale of the variables was provided. Therefore, considering that the database represents monthly values of a Brazilian company, for analysis purposes, it will be assumed that the unit of measurement is "Rs" for the investments collumns and "parts per Rs 1.000,00" for the sales column.
 
 ##Exploratory Analysis
+
 To conduct this analysis, a new exploration dataframe was created, to which two new attributes were added:
 
 1. social_media: Marketing investments in social media (facebook + youTube) per month;
