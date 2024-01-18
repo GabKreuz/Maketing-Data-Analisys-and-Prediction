@@ -15,8 +15,7 @@ The database has 171 rows, and all the data are of float type. No data preparati
 
 No information regarding the units and scale of the variables was provided. Therefore, considering that the database represents monthly values of a Brazilian company, for analysis purposes, it will be assumed that the unit of measurement is "Rs" for the investments collumns and "parts per Rs 1.000,00" for the sales column.
 
-##Exploratory Analysis
-
+## Exploratory Analysis
 To conduct this analysis, a new exploration dataframe was created, to which two new attributes were added:
 
 1. social_media: Marketing investments in social media (facebook + youTube) per month;
@@ -29,12 +28,11 @@ The following conclusions were drawn:
 3. The "youtube" attribute is the variable with the highest correlation with the target, presenting an r² of 0.612.
 
 ## Modeling
-
 In the model construction phase, the implementation of a simple linear regression model was demanded. The model yielded an RMSE of R$ 1781.42, representing an error of 10.1134% from the mean. Due to the model's straightforward simplicity and transparent parameter approach, hyperparameter optimization did not have a noticeable impact on the outcomes.
 
 ## Evaluation
 
-###Results Evaluation
+### Results Evaluation
 
 Initially, the model presented a coefficient of determination (R²) of 92.47%, indicating an extremely satisfactory fit to the utilized data and excellent predictive capability within the sample space.
 
@@ -44,7 +42,7 @@ Therefore, we can assume that the results presented in the analysis of parameter
 
 2. Despite the model's excellent fit to the data, as evidenced in the modeling section, it exhibits a high error. This suggests the need for improved model training, possibly with a larger database or the exploration of other modeling techniques.
 
-###Next Steps
+### Next Steps
 
 Based on the results, it would be beneficial to conduct a detailed analysis of the YouTube and newspapers platforms.
 
