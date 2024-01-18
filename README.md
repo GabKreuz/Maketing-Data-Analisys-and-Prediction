@@ -28,7 +28,7 @@ The following conclusions were drawn:
 3. The "youtube" attribute is the variable with the highest correlation with the target, presenting an r² of 0.612.
 
 ## Modeling
-In the model construction phase, the implementation of a simple linear regression model was demanded. The model yielded an RMSE of R$ 1781.42, representing an error of 10.1134% from the mean. Due to the model's straightforward simplicity and transparent parameter approach, hyperparameter optimization did not have a noticeable impact on the outcomes.
+In the model construction phase, the implementation of a simple linear regression model was demanded. The model yielded an RMSE of R$ 1,781.42, representing an error of 10.1134% from the mean. Due to the model's straightforward simplicity and transparent parameter approach, hyperparameter optimization did not have a noticeable impact on the outcomes.
 
 ## Evaluation
 
